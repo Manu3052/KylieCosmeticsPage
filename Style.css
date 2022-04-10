@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.2%;
+}
+
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header{
+    height: 200px;
+    padding: 20px;
+}
+
+.logo {
+    position: absolute;
+    width: 10px;
+    left: 120px;
+    text-align: right;
+   
+}
+
+.menu{
+    position: absolute;
+    padding-top: 30px;
+    width: 60%;
+    right: 100px;
+    text-align: right;
+}
+
+.menu a{
+    color: rgb(35, 34, 34);
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+section.sobre{
+    height:calc(100% - 200px) ;
+    position: relative;
+}
+
+.extras{
+    position:absolute;
+    bottom: -30%;
+    right: -20%;
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+    background-color: #ecc1cb;
+}
+
+.imagem{
+    position: absolute;
+    right: 60px;
+    bottom: 100px;
+}
+
+.social_media{
+    position: absolute;
+    width: 20px;
+    right: 500%;
+    top: 30px;
+}
+
+.titulo{
+    position: absolute;
+    left: 120px;
+}
+
+.titulo h1{
+    font-size: 50px;
+    margin-top: 60px;
+}
+
+.titulo h2{
+    position: absolute;
+    margin-top: 20px;
+    left: 180px;
+    font-size: 30px;
+}
+
+.titulo p{
+    font-size: 30px;
+    margin-top: 40px;
+    max-width: 900px;
+    font-weight: lighter;
+    color: black;
+    margin: 20px 0;
+}
+
+.titulo button{
+ border: 0px;
+ background-color: #ecc1cb;
+ color: white;
+ border-radius: 10px;
+ width: 100px;
+ height: 30px;
+ cursor: pointer;
+ position: absolute;
+ margin-top: 80px;
+ left: 290px;
+ font-size: 16px;
+}
